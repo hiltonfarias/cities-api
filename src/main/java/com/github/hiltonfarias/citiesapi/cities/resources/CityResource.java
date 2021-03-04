@@ -1,6 +1,7 @@
-package com.github.hiltonfarias.citiesapi.cities;
+package com.github.hiltonfarias.citiesapi.cities.resources;
 
-import com.github.hiltonfarias.citiesapi.cities.repository.CityRepository;
+import com.github.hiltonfarias.citiesapi.cities.entities.City;
+import com.github.hiltonfarias.citiesapi.cities.repositories.CityRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;

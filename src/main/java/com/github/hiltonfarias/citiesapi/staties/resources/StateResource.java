@@ -1,6 +1,7 @@
-package com.github.hiltonfarias.citiesapi.staties;
+package com.github.hiltonfarias.citiesapi.staties.resources;
 
-import com.github.hiltonfarias.citiesapi.staties.repository.StateRepository;
+import com.github.hiltonfarias.citiesapi.staties.entities.State;
+import com.github.hiltonfarias.citiesapi.staties.repositories.StateRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

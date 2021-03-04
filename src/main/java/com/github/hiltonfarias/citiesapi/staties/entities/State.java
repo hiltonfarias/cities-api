@@ -1,6 +1,6 @@
-package com.github.hiltonfarias.citiesapi.staties;
+package com.github.hiltonfarias.citiesapi.staties.entities;
 
-import com.github.hiltonfarias.citiesapi.countries.Country;
+import com.github.hiltonfarias.citiesapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;

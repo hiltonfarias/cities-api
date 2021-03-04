@@ -1,6 +1,7 @@
-package com.github.hiltonfarias.citiesapi.countries;
+package com.github.hiltonfarias.citiesapi.countries.resources;
 
-import com.github.hiltonfarias.citiesapi.countries.repository.CountryRepository;
+import com.github.hiltonfarias.citiesapi.countries.entities.Country;
+import com.github.hiltonfarias.citiesapi.countries.repositories.CountryRepository;
 import com.github.hiltonfarias.citiesapi.exception.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
