@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  postgres:
+    image: postgres:13.2
+    container_name: "cities"
+    environment:
+      - POSTGRES_DB=cities
+      - POSTGRES_USER=postgres_user_city
+      - POSTGRES_PASSWORD=mycitiesapi
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres:/var/lib/postgres
+

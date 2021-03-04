@@ -1,0 +1,7 @@
+package com.github.hiltonfarias.citiesapi.repository;
+
+import com.github.hiltonfarias.citiesapi.countries.Country;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CountryRepository extends JpaRepository<Country, Long> {
+}
