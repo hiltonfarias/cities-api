@@ -1,4 +1,4 @@
-package com.github.hiltonfarias.citiesapi.staties.entities;
+package com.github.hiltonfarias.citiesapi.states.entities;
 
 import com.github.hiltonfarias.citiesapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
